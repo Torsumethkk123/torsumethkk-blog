@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+.dark ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: rgb(23, 15, 35);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgb(215, 92, 141);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgb(173, 74, 113);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #cecece;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(51, 103, 216);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(39, 72, 142);
+}
+
+::selection {
+  background-color: rgb(136, 163, 221);
+}
+
+.dark ::selection {
+  background-color: rgb(213, 135, 166);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.dark body {
+  background-color: rgb(36, 22, 55);
+}
+
+h5 {
+  color: rgb(51, 103, 216);
+}
+
+.dark h5 {
+  color: rgb(215, 92, 141);
+}
+
+.dark .active-link {
+  color: rgb(215, 92, 141);
+}
+
+.active-link {
+  color: rgb(51, 103, 216);
+}
+
+.dark .toggle:hover {
+  filter: drop-shadow(0 0 15px white)
+}
+
+.toggle:hover {
+  filter: drop-shadow(0 0 15px black)
+}
+
+.slide-in {
+  background-color: rgb(84, 123, 207);
+}
+
+.dark .slide-in {
+  background-color: rgb(230, 133, 172);
+}
+
+.slide-out {
+  background-color: rgb(84, 123, 207);
+}
+
+.dark .slide-out {
+  background-color: rgb(230, 133, 172);
+}
+
+.warp-button {
+  background-color: rgb(51, 103, 216);
+  box-shadow: inset 0 0 0 0 rgb(42, 83, 173);
+  color: white;
+}
+
+.warp-button:hover {
+  box-shadow: inset 300px 0 0 0  rgb(42, 83, 173);
+}
+
+.dark .warp-button {
+  background-color: rgb(188, 76, 121);
+  box-shadow: inset 0 0 0 0 rgb(151, 61, 97);
+}
+
+.dark .warp-button:hover {
+  box-shadow: inset 300px 0 0 0  rgb(151, 61, 97);
+}
+
+.dark .info {
+  background-color: rgb(42, 23, 67);
+}
+
+.info {
+  background-color: rgb(235, 235, 235);
+}
+
+.dark .repo {
+  background-color: #0D1117;
+  border: 2px solid #626364;
+  box-shadow: 0 0 10px 1px black;
+}
+
+.repo {
+  background-color: #efefef;
+  border: 2px solid #626364;
+  box-shadow: 0 0 10px 1px black;
+}
+
+.dark .loader {
+  border: solid rgb(215, 92, 141);
+  border-top: solid transparent;
+}
+
+.loader {
+  border: solid rgb(51, 103, 216);
+  border-top: solid transparent;
+}
